@@ -6,10 +6,10 @@ class Control:
     def __init__ (self):
         self.TV = TV
     
-    def getTV (self):
+    def getTv (self):
         return self.TV
 
-    def setTV (self, tv):
+    def setTv (self, tv):
         self.TV = tv
     
     def enlazar (self,tv):
