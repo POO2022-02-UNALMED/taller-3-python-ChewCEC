@@ -78,3 +78,12 @@ class TV:
     def canalDown (self): 
         if (self.getEstado == True and self.getCanal<120):
             self.canal=-1
+    
+# Set and get numTV
+
+    def setNumTV (self, num):
+        self.numTV =  num
+    
+    def getNumTV (self):
+        return self.numTV
+
