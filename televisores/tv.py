@@ -64,12 +64,12 @@ class TV:
     
 # volumenUp
     def volumenUp (self):
-        if (self.getEstado == True and self.getVolumen < 7):
+        if (self.getEstado() == True and self.getVolumen() < 7):
             self.volumen += 1
 
 # volumeDown
     def volumenDown (self):
-        if (self.getEstado == True and self.getVolumen > 0):
+        if (self.getEstado() == True and self.getVolumen() > 0):
             self.volumen -= 1
 
 # canalnUp
