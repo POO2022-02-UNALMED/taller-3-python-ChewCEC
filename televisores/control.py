@@ -4,14 +4,14 @@ class Control:
     def __init__ (self):
         self.tele = None
 
-    def getTV (self):
+    def getTv (self):
         return self.tele
 
-    def setTV (self, tv):
+    def setTv (self, tv):
         self.tele = tv
 
     def enlazar (self, tv):
-        self.setTV(tv)
+        self.setTv(tv)
         self.tele.setControl(self)
 
     def turnOff (self):
