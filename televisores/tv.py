@@ -9,7 +9,7 @@ class TV:
         self.canal = 1
         self.precio = 500
         self.volumen = 1
-        self.numTV =+ 1
+        TV.numTV += 1
 
 #marca, control, precio, volumen y canal    
 
@@ -83,7 +83,7 @@ class TV:
 
 #Set and get NumTV
     def setNumTV (num):
-        TV.numTV =  num
+        TV.numTV = num
     
     def getNumTV ():
         return TV.numTV
